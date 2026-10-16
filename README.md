@@ -66,20 +66,20 @@ Este repositório já foi inicializado com `git init` e seu primeiro commit foi 
 
 ### 1. Crie um novo repositório no seu GitHub
 1. Acesse [github.com/new](https://github.com/new).
-2. Escolha um nome para o repositório (exemplo: `peca-sitio-picapau-amarelo` ou `teatro-sitio`).
-3. Deixe o repositório como **Público** (*Public*).
+2. Escolha o nome para o repositório: `peca-sitio-picapau`.
+3. Deixe o repositório marcado como **Público** (*Public*).
 4. **Não marque** as opções de adicionar README ou .gitignore (já criamos todos para você).
 5. Clique em **Create repository**.
 
 ### 2. Vincule e envie o código pelo terminal
-No terminal dentro desta pasta, execute os seguintes comandos (substituindo pelo seu usuário e nome do repo):
+No terminal dentro desta pasta, execute os seguintes comandos (substituindo `SEU-USUARIO` pelo seu nome de usuário no GitHub):
 
 ```bash
 # 1. Definir o ramo principal como 'main'
 git branch -M main
 
-# 2. Conectar com o seu repositório no GitHub (troque SEU-USUARIO pelo seu username)
-git remote add origin https://github.com/SEU-USUARIO/peca-sitio-picapau-amarelo.git
+# 2. Conectar com o seu repositório no GitHub (troque SEU-USUARIO pelo seu usuário)
+git remote add origin https://github.com/SEU-USUARIO/peca-sitio-picapau.git
 
 # 3. Enviar os arquivos
 git push -u origin main
@@ -90,7 +90,8 @@ git push -u origin main
 2. No menu lateral esquerdo, clique em **Pages**.
 3. Em **Build and deployment > Source**, selecione `Deploy from a branch`.
 4. Em **Branch**, selecione `main` e a pasta `/(root)`, depois clique em **Save**.
-5. Aguarde cerca de 1 a 2 minutos. O GitHub gerará o link oficial do seu site (ex: `https://seu-usuario.github.io/peca-sitio-picapau-amarelo/`).
+5. Aguarde cerca de 1 a 2 minutos. O GitHub gerará o link oficial do seu site:
+   `https://SEU-USUARIO.github.io/peca-sitio-picapau/`
 
 Pronto! Qualquer pessoa com o link poderá acessar a página no computador ou celular!
 
