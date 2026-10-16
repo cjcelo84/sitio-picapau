@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peça Teatral: Aventuras no Sítio do Picapau Amarelo | 8º Ano</title>
+  
+  <!-- Meta tags de SEO e Redes Sociais -->
+  <meta name="description" content="Página oficial da peça teatral 'Aventuras no Sítio do Picapau Amarelo', apresentada pela turma do 8º Ano. Venha prestigiar essa grande festa cultural com entrada gratuita para toda a família e comunidade escolar!">
+  <meta name="keywords" content="Sitio do Picapau Amarelo, Teatro Escolar, Emilia, Visconde de Sabugosa, Monteiro Lobato, 8º Ano, Espetáculo Infantil">
+  <meta name="author" content="Turma do 8º Ano - Escola Municipal">
+  
+  <!-- Open Graph / Compartilhamento -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Peça Teatral: Aventuras no Sítio do Picapau Amarelo">
+  <meta property="og:description" content="Traga toda a família para uma viagem mágica pelas histórias de Monteiro Lobato! Dias 20 e 21 de Novembro. Entrada gratuita.">
+  <meta property="og:image" content="assets/images/sitio_hero_banner.jpg">
+
+  <!-- Favicon lúdico em SVG -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌽</text></svg>">
+
+  <!-- Google Fonts: Fredoka & Nunito -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- Folha de Estilos Principal -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       BARRA DE NAVEGAÇÃO (HEADER / NAVBAR)
+       ======================================================================== -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#inicio" class="site-logo" aria-label="Voltar ao início">
+        <div class="logo-badge" aria-hidden="true">🌽</div>
+        <div class="logo-text">
+          <div class="logo-text-title">Sítio no Palco</div>
+          <div class="logo-text-sub">Espetáculo do 8º Ano</div>
+        </div>
+      </a>
+
+      <!-- Botão Menu Mobile -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+        ☰
+      </button>
+
+      <!-- Menu Principal -->
+      <nav aria-label="Menu principal">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#inicio" class="nav-link">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre o Espetáculo</a></li>
+          <li><a href="#personagens" class="nav-link">Quem é Quem</a></li>
+          <li><a href="#datas-horarios" class="nav-link">Datas &amp; Local</a></li>
+          <li><a href="#bastidores" class="nav-link">Bastidores</a></li>
+          <li><a href="#interativo" class="nav-link">Atividades</a></li>
+          <li>
+            <a href="#datas-horarios" class="btn btn-primary nav-btn">
+              🎟️ Entrada Franca
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================================================================
+         CABEÇALHO HERO (DESTAQUE PRINCIPAL)
+         ====================================================================== -->
+    <section class="hero-section" id="inicio">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge-festivo">
+              <span>🎭</span> Temporada Teatral Escolar 2026 • Apresentação Especial
+            </div>
+            
+            <h1 class="hero-title">
+              Peça Teatral:<br>
+              <span class="highlight-yellow">Aventuras no Sítio</span><br>
+              <span class="highlight-red">do Picapau Amarelo</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Convidamos todos os <strong>alunos, pais, professores e familiares</strong> para uma viagem mágica e divertida pelo universo encantado de Monteiro Lobato, criada com dedicação pelos estudantes da nossa escola.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#datas-horarios" class="btn btn-primary" id="heroBtnDatas">
+                🗓️ Ver Datas e Horários
+              </a>
+              <a href="#sobre" class="btn btn-outline">
+                📖 Conhecer a História
+              </a>
+            </div>
+
+            <!-- Contador Regressivo até a Estreia -->
+            <div class="countdown-box" aria-live="polite">
+              <div class="countdown-header">
+                <span>⏰ Contagem regressiva para a grande estreia:</span>
+              </div>
+              <div class="countdown-timer">
+                <div class="countdown-unit">
+                  <div class="countdown-number" id="cdDays">00</div>
+                  <div class="countdown-label">Dias</div>
+                </div>
+                <div class="countdown-unit">
+                  <div class="countdown-number" id="cdHours">00</div>
+                  <div class="countdown-label">Horas</div>
+                </div>
+                <div class="countdown-unit">
+                  <div class="countdown-number" id="cdMinutes">00</div>
+                  <div class="countdown-label">Minutos</div>
+                </div>
+                <div class="countdown-unit">
+                  <div class="countdown-number" id="cdSeconds">00</div>
+                  <div class="countdown-label">Segundos</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Arte Gráfica de Apresentação com Selo de Gratuidade -->
+          <div class="hero-visual-wrapper">
+            <div class="hero-stamp-free">
+              <span>ENTRADA</span>
+              <strong>GRÁTIS</strong>
+              <span>P/ TODA A FAMÍLIA</span>
+            </div>
+            <div class="hero-visual-card">
+              <img src="assets/images/sitio_hero_banner.jpg" alt="Ilustração do Sítio do Picapau Amarelo com a casinha amarela, árvores frutíferas e bandeirinhas festivas" width="900" height="506" loading="eager">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SOBRE O ESPETÁCULO (SINOPSE)
+         ====================================================================== -->
+    <section class="about-section" id="sobre">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag tag-green">🌻 Nosso Espetáculo</span>
+          <h2 class="section-title">A Magia do Sítio Ganha Vida no Palco</h2>
+          <p class="section-subtitle">
+            Um projeto multidisciplinar que uniu literatura brasileira, artes cênicas, expressão corporal e muita alegria da garotada!
+          </p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                Tudo começa em uma manhã ensolarada e cheia de passarinhos cantando no <strong>Sítio do Picapau Amarelo</strong>. Dona Benta lê histórias na varanda, Tia Nastácia prepara sua famosa fornada de bolinhos de chuva com canela, e as crianças se preparam para mais um dia de brincadeiras.
+              </p>
+              <p>
+                Mas uma surpresa agita o terreiro: a espevitada <strong>Emília</strong> descobre que a temida <strong>Cuca</strong> bolou um feitiço misterioso para fazer sumir a receita dos bolinhos e os livros da biblioteca do Visconde!
+              </p>
+              <p>
+                Juntos, <strong>Pedrinho</strong>, <strong>Narizinho</strong> e o nobre <strong>Visconde de Sabugosa</strong> partem rumo ao capoeirão em uma jornada emocionante. Com inteligência, união e muita cantoria, a turminha vai provar que o verdadeiro encanto está na imaginação e no respeito mútuo.
+              </p>
+
+              <div class="about-quote">
+                "Um espetáculo vibrante, repleto de cantigas do folclore popular brasileiro e diálogos hilários que vão emocionar crianças e adultos!"
+              </div>
+            </div>
+
+            <!-- Pílulas de Informações Rápidas -->
+            <div class="about-features">
+              <div class="feature-pill">
+                <span class="feature-icon" aria-hidden="true">⏱️</span>
+                <span class="feature-title">Duração Ideal</span>
+                <span class="feature-desc">Aproximadamente 60 minutos de pura diversão e dinamismo.</span>
+              </div>
+
+              <div class="feature-pill">
+                <span class="feature-icon" aria-hidden="true">👶</span>
+                <span class="feature-title">Classificação Livre</span>
+                <span class="feature-desc">Perfeito para bebês, crianças, jovens e vovôs e vovós!</span>
+              </div>
+
+              <div class="feature-pill">
+                <span class="feature-icon" aria-hidden="true">🎶</span>
+                <span class="feature-title">Trilha Sonora Viva</span>
+                <span class="feature-desc">Cantigas tradicionais e canções clássicas entoadas pela turma.</span>
+              </div>
+
+              <div class="feature-pill">
+                <span class="feature-icon" aria-hidden="true">🎁</span>
+                <span class="feature-title">Entrada Gratuita</span>
+                <span class="feature-desc">Aberto a toda a comunidade escolar. Não precisa comprar ingresso.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         PERSONAGENS / QUEM É QUEM NO PALCO
+         ====================================================================== -->
+    <section class="characters-section" id="personagens">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag tag-yellow">⭐ Elenco do 8º Ano</span>
+          <h2 class="section-title">Quem é Quem no Sítio</h2>
+          <p class="section-subtitle">
+            Conheça os personagens inesquecíveis e os talentosos alunos que darão vida a essa clássica turma no palco!
+          </p>
+        </div>
+
+        <div class="characters-grid">
+          <!-- 1. Emília -->
+          <article class="character-card" data-character="emilia">
+            <div class="character-avatar-wrap">
+              <img src="assets/images/personagem_emilia.jpg" alt="Boneca Emília de pano com cabelos de lã amarelos e vermelhos" class="character-avatar" loading="lazy">
+            </div>
+            <span class="character-role-tag">A Marquesa de Rabicó</span>
+            <h3 class="character-name">Emília</h3>
+            <div class="character-actor">
+              <span>🎭 Atriz:</span> Sofia Meireles (8º B)
+            </div>
+            <p class="character-quote">
+              "Eu não sou gente, sou boneca! Mas falo mais do que homem da cobra!"
+            </p>
+            <p class="character-bio">
+              A boneca de pano mais famosa da literatura, que tomou a pílula falante do Dr. Caramujo e nunca mais parou de falar. Rebelde, criativa e dona de uma coragem sem limites.
+            </p>
+          </article>
+
+          <!-- 2. Visconde de Sabugosa -->
+          <article class="character-card" data-character="visconde">
+            <div class="character-avatar-wrap">
+              <img src="assets/images/personagem_visconde.jpg" alt="Visconde de Sabugosa com cartola verde e óculos" class="character-avatar" loading="lazy">
+            </div>
+            <span class="character-role-tag">O Sábio do Sítio</span>
+            <h3 class="character-name">Visconde de Sabugosa</h3>
+            <div class="character-actor">
+              <span>🎭 Ator:</span> Lucas Fernandes (8º A)
+            </div>
+            <p class="character-quote">
+              "Pelas barbas de Netuno! A ciência e os livros nos darão a resposta exata!"
+            </p>
+            <p class="character-bio">
+              O distinto fidalgo feito de sabugo de milho e vestido em sua nobre casaca. Com seus óculos redondos e livros de astronomia, ele é o cérebro das maiores descobertas do grupo.
+            </p>
+          </article>
+
+          <!-- 3. Narizinho -->
+          <article class="character-card" data-character="narizinho">
+            <div class="character-avatar-wrap">
+              <img src="assets/images/personagem_narizinho.jpg" alt="Narizinho sorridente com chapéu de palha e vestido amarelo" class="character-avatar" loading="lazy">
+            </div>
+            <span class="character-role-tag">Dona da Imaginação</span>
+            <h3 class="character-name">Narizinho (Lúcia)</h3>
+            <div class="character-actor">
+              <span>🎭 Atriz:</span> Beatriz Castro (8º A)
+            </div>
+            <p class="character-quote">
+              "O mundo é do tamanho da nossa curiosidade e do nosso coração!"
+            </p>
+            <p class="character-bio">
+              A doce e sonhadora netinha de Dona Benta. Com seu narizinho arrebitado e carinho contagiante, é ela quem cuida da Emília e transforma o pomar no Reino das Águas Claras.
+            </p>
+          </article>
+
+          <!-- 4. Pedrinho -->
+          <article class="character-card" data-character="pedrinho">
+            <div class="character-avatar-wrap">
+              <img src="assets/images/personagem_pedrinho.jpg" alt="Pedrinho com boné vermelho e estilingue aventureiro" class="character-avatar" loading="lazy">
+            </div>
+            <span class="character-role-tag">O Líder Explorador</span>
+            <h3 class="character-name">Pedrinho</h3>
+            <div class="character-actor">
+              <span>🎭 Ator:</span> Gabriel Ribeiro (8º B)
+            </div>
+            <p class="character-quote">
+              "Quem tem medo de assombração não caça saci nem vence a Cuca!"
+            </p>
+            <p class="character-bio">
+              O neto aventureiro que adora passar as férias escolares no sítio. Valente, ágil e estrategista, Pedrinho não teme nenhum perigo quando o assunto é proteger seus amigos.
+            </p>
+          </article>
+
+          <!-- 5. Dona Benta -->
+          <article class="character-card" data-character="donabenta">
+            <div class="character-avatar-wrap">
+              <img src="assets/images/personagem_dona_benta.jpg" alt="Dona Benta bondosa sentada em sua cadeira de balanço com livro de histórias" class="character-avatar" loading="lazy">
+            </div>
+            <span class="character-role-tag">A Guardiã das Histórias</span>
+            <h3 class="character-name">Dona Benta</h3>
+            <div class="character-actor">
+              <span>🎭 Atriz:</span> Helena Vasconcelos (8º A)
+            </div>
+            <p class="character-quote">
+              "No meu sítio, todo dia traz uma nova lição de bondade e amizade."
+            </p>
+            <p class="character-bio">
+              A vovó mais amorosa e acolhedora de todos os tempos. Em sua cadeira de balanço e com óculos no nariz, ela conduz os pequenos pelas maravilhas da história, da paz e do afeto.
+            </p>
+          </article>
+
+          <!-- 6. Tia Nastácia -->
+          <article class="character-card" data-character="tianastacia">
+            <div class="character-avatar-wrap">
+              <img src="assets/images/personagem_tia_nastacia.jpg" alt="Tia Nastácia carinhosa com travessa de bolinhos de chuva dourados" class="character-avatar" loading="lazy">
+            </div>
+            <span class="character-role-tag">O Coração da Cozinha</span>
+            <h3 class="character-name">Tia Nastácia</h3>
+            <div class="character-actor">
+              <span>🎭 Atriz:</span> Clara Albuquerque (8º B)
+            </div>
+            <p class="character-quote">
+              "Cuidado com o fuxico, minha gente! Mas venham depressa que os bolinhos saíram do fogo!"
+            </p>
+            <p class="character-bio">
+              Cozinheira de mão cheia e criadora da boneca Emília. Com seu sorriso radiante e coração afetuoso, espanta qualquer medo da garotada com canções e travessas quentinhas de bolinho.
+            </p>
+          </article>
+
+          <!-- 7. Cuca -->
+          <article class="character-card" data-character="cuca">
+            <div class="character-avatar-wrap">
+              <img src="assets/images/personagem_cuca.jpg" alt="A feiticeira Cuca jacaré com capa roxa e caldeirão mágico borbulhante" class="character-avatar" loading="lazy">
+            </div>
+            <span class="character-role-tag">A Bruxa do Capoeirão</span>
+            <h3 class="character-name">Cuca</h3>
+            <div class="character-actor">
+              <span>🎭 Atriz:</span> Manuela Rocha (8º A)
+            </div>
+            <p class="character-quote">
+              "Hahaha! Mexe que mexe o caldeirão! Quem ousar entrar na minha gruta vai dançar!"
+            </p>
+            <p class="character-bio">
+              A feiticeira mais cômica e barulhenta da floresta. Com sua longa cabeleira amarela, capa roxa e feitiços engraçados, vai aprontar muitas confusões antes de levar uma bela lição!
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         DATAS, HORÁRIOS E LOCAL
+         ====================================================================== -->
+    <section class="schedule-section" id="datas-horarios">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag tag-red">📅 Programação Oficial</span>
+          <h2 class="section-title">Datas, Horários e Local</h2>
+          <p class="section-subtitle">
+            Marque na sua agenda e venha prestigiar! Todas as sessões contam com entrada franca para a comunidade escolar.
+          </p>
+        </div>
+
+        <div class="schedule-wrapper">
+          <!-- Cabeçalho do Ticket -->
+          <div class="schedule-ticket-header">
+            <div class="ticket-header-title">
+              <span>🎟️</span> Bilhete da Temporada Escolar
+            </div>
+            <div class="ticket-header-badge">
+              Entrada 100% Gratuita • Sem cobrança de ingressos
+            </div>
+          </div>
+
+          <div class="schedule-body">
+            <!-- Sessões -->
+            <div class="sessions-list">
+              <!-- Sessão 1 -->
+              <div class="session-card">
+                <div class="session-date-badge">
+                  <div class="session-date-weekday">SEX</div>
+                  <div class="session-date-day">20</div>
+                  <div class="session-date-month">NOV</div>
+                </div>
+                <div class="session-info">
+                  <span class="session-tag-highlight">1ª Sessão • Matinê Escolar</span>
+                  <h3 class="session-title">Sessão dos Alunos do Fundamental I</h3>
+                  <div class="session-times">
+                    <span>🕒 Horário: 14h30</span>
+                    <span>• Portões abrem às 14h10</span>
+                  </div>
+                  <p class="session-target">
+                    Apresentação especial com participação das turmas do 1º ao 5º ano, professores e monitores.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Sessão 2 -->
+              <div class="session-card">
+                <div class="session-date-badge" style="background-color: var(--color-yellow-dark);">
+                  <div class="session-date-weekday">SEX</div>
+                  <div class="session-date-day">20</div>
+                  <div class="session-date-month">NOV</div>
+                </div>
+                <div class="session-info">
+                  <span class="session-tag-highlight" style="background-color: var(--color-yellow-soft); color: #854d0e;">2ª Sessão • Grande Noite das Famílias</span>
+                  <h3 class="session-title">Sessão Noturna para Pais e Comunidade</h3>
+                  <div class="session-times">
+                    <span>🕒 Horário: 19h00</span>
+                    <span>• Portões abrem às 18h30</span>
+                  </div>
+                  <p class="session-target">
+                    Sessão perfeita para pais, irmãos, avós e ex-alunos celebrarem juntos o encerramento do ano letivo.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Sessão 3 -->
+              <div class="session-card">
+                <div class="session-date-badge" style="background-color: var(--color-red-primary);">
+                  <div class="session-date-weekday">SÁB</div>
+                  <div class="session-date-day">21</div>
+                  <div class="session-date-month">NOV</div>
+                </div>
+                <div class="session-info">
+                  <span class="session-tag-highlight">Sessão Especial de Gala • Fim de Semana</span>
+                  <h3 class="session-title">Apresentação Festiva e Encerramento</h3>
+                  <div class="session-times">
+                    <span>🕒 Horário: 16h00</span>
+                    <span>• Portões abrem às 15h30</span>
+                  </div>
+                  <p class="session-target">
+                    Sessão aberta ao público geral, familiares convidados e confraternização com fotos com os personagens ao final!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card de Local e Acessibilidade -->
+            <div class="location-box">
+              <h3 class="location-box-title">
+                <span>📍</span> Local do Espetáculo
+              </h3>
+
+              <div class="location-address">
+                <strong>Auditório Central "Monteiro Lobato"</strong>
+                Colégio &amp; Escola Municipal da Comunidade<br>
+                Acesso principal pelo Pátio Cultural (Bloco A - Térreo)<br>
+                Rua da Educação, 350 - Bairro Escola
+              </div>
+
+              <div class="location-badges">
+                <div class="loc-badge">
+                  <span>❄️</span> Ambiente climatizado e confortável
+                </div>
+                <div class="loc-badge">
+                  <span>♿</span> Total acessibilidade (rampas e assentos reservados)
+                </div>
+                <div class="loc-badge">
+                  <span>🚗</span> Estacionamento interno liberado para famílias
+                </div>
+                <div class="loc-badge">
+                  <span>📸</span> Espaço para fotos com o elenco no final
+                </div>
+              </div>
+
+              <!-- Ações de Calendário -->
+              <div class="calendar-actions">
+                <button type="button" class="btn btn-primary btn-calendar" id="btnGoogleCal">
+                  📅 Adicionar ao Google Agenda
+                </button>
+                <button type="button" class="btn btn-outline btn-calendar" id="btnDownloadIcs">
+                  📥 Baixar Lembrete no Celular (.ics)
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         BASTIDORES / GALERIA DE FOTOS
+         ====================================================================== -->
+    <section class="gallery-section" id="bastidores">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag tag-green">🎨 Trabalho em Equipe</span>
+          <h2 class="section-title">Bastidores e Preparação</h2>
+          <p class="section-subtitle">
+            Veja como a nossa turma colocou a mão na massa: ensaios com script, pintura do cenário, prova de figurinos e muita união!
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Foto 1: Apresentação na lousa -->
+          <div class="gallery-item" data-full="fotos/1.jpg" data-caption="Apresentação e Planejamento: turma alinhando a montagem de Aventuras no Sítio do Picapau Amarelo">
+            <img src="fotos/1.jpg" alt="Estudantes em frente à lousa escrita Sítio do Picapau Amarelo" class="gallery-thumb" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-badge">Planejamento</span>
+              <div class="gallery-caption">Apresentação do Projeto</div>
+            </div>
+            <div class="gallery-zoom-icon" aria-hidden="true">🔍</div>
+          </div>
+
+          <!-- Foto 2: Ensaio de interpretação -->
+          <div class="gallery-item" data-full="fotos/2.jpg" data-caption="Ensaio de Expressão Corporal: alunos praticando a fala e os gestos teatrais">
+            <img src="fotos/2.jpg" alt="Alunos ensaiando diálogos e gestos na sala de aula" class="gallery-thumb" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-badge">Interpretação</span>
+              <div class="gallery-caption">Ensaio de Falas e Expressão</div>
+            </div>
+            <div class="gallery-zoom-icon" aria-hidden="true">🔍</div>
+          </div>
+
+          <!-- Foto 3: Dinâmica de cena -->
+          <div class="gallery-item" data-full="fotos/3.jpg" data-caption="Trabalho de Cena: debate e alinhamento do ritmo cênico entre os colegas">
+            <img src="fotos/3.jpg" alt="Grupo de alunas e alunos ensaiando a dinâmica de cena" class="gallery-thumb" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-badge">Dinâmica</span>
+              <div class="gallery-caption">Harmonia e Troca em Cena</div>
+            </div>
+            <div class="gallery-zoom-icon" aria-hidden="true">🔍</div>
+          </div>
+
+          <!-- Foto 4: Estudo do roteiro -->
+          <div class="gallery-item" data-full="fotos/4.jpg" data-caption="Estudo do Roteiro: concentração e anotações para memorizar cada fala da peça">
+            <img src="fotos/4.jpg" alt="Alunas concentradas lendo e revisando o roteiro da peça" class="gallery-thumb" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-badge">Roteiro</span>
+              <div class="gallery-caption">Estudo e Marcação do Texto</div>
+            </div>
+            <div class="gallery-zoom-icon" aria-hidden="true">🔍</div>
+          </div>
+
+          <!-- Foto 5: Confecção dos cartazes -->
+          <div class="gallery-item" data-full="fotos/5.jpg" data-caption="Oficina de Cartazes: 'VENHA VER!' - criando a arte de divulgação com muita tinta e alegria">
+            <img src="fotos/5.jpg" alt="Estudantes pintando cartazes de divulgação no chão com as palavras Venha Ver" class="gallery-thumb" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-badge">Divulgação</span>
+              <div class="gallery-caption">Pintura dos Cartazes "Venha Ver!"</div>
+            </div>
+            <div class="gallery-zoom-icon" aria-hidden="true">🔍</div>
+          </div>
+
+          <!-- Foto 6: Ensaio geral da turma -->
+          <div class="gallery-item" data-full="fotos/6.jpg" data-caption="Ensaio da Turma Reunida: alinhando as entradas em cena e comemorando o progresso da equipe">
+            <img src="fotos/6.jpg" alt="Turma reunida em pé em frente à lousa ensaiando juntos" class="gallery-thumb" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-badge">Ensaio Geral</span>
+              <div class="gallery-caption">A Turma Reunida em Sala</div>
+            </div>
+            <div class="gallery-zoom-icon" aria-hidden="true">🔍</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         ÁREA INTERATIVA: DESENHO PARA COLORIR E QUIZ
+         ====================================================================== -->
+    <section class="interactive-section" id="interativo">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag tag-yellow">✏️ Cantinho Lúdico</span>
+          <h2 class="section-title">Área Interativa para Famílias e Crianças</h2>
+          <p class="section-subtitle">
+            Baixe e imprima o desenho oficial da peça para colorir em casa, e descubra qual personagem mais combina com a sua personalidade!
+          </p>
+        </div>
+
+        <div class="interactive-grid">
+          <!-- Card de Desenho para Colorir -->
+          <div class="interactive-card" id="coloringCard">
+            <div>
+              <span class="section-tag tag-green">📥 Folha de Colorir</span>
+              <h3>Desenho do Sítio para Imprimir</h3>
+              <p>
+                Preparamos uma ilustração com traços limpos da Emília e do Visconde de Sabugosa no quintal do sítio, ideal para giz de cera, lápis de cor ou tinta guache!
+              </p>
+
+              <div class="coloring-preview-wrap">
+                <img src="assets/images/desenho_colorir_sitio.jpg" alt="Prévia do desenho em traços pretos para colorir com Emília e Visconde acenando" width="400" height="533" loading="lazy">
+              </div>
+            </div>
+
+            <div class="coloring-actions">
+              <button type="button" class="btn btn-red" id="btnPrintColoring">
+                🖨️ Imprimir Folha em A4
+              </button>
+              <button type="button" class="btn btn-outline" id="btnDownloadColoring">
+                ⬇️ Baixar Imagem (JPG)
+              </button>
+            </div>
+          </div>
+
+          <!-- Card Quiz: Qual personagem é você? -->
+          <div class="interactive-card">
+            <div>
+              <span class="section-tag tag-red">🎯 Quiz Rápido</span>
+              <h3>Qual Personagem do Sítio é Você?</h3>
+              <p>
+                Descubra qual habitante do Sítio do Picapau Amarelo tem mais a ver com o seu jeito de ser! Clique na opção que mais combina com você:
+              </p>
+
+              <div class="quiz-box">
+                <div class="quiz-question">Quando você tem uma tarde livre, o que prefere fazer?</div>
+                <div class="quiz-options">
+                  <button type="button" class="quiz-opt-btn" data-character="emilia">
+                    🗣️ Inventar histórias malucas e conversar sem parar
+                  </button>
+                  <button type="button" class="quiz-opt-btn" data-character="visconde">
+                    📚 Ler um bom livro e aprender curiosidades sobre o universo
+                  </button>
+                  <button type="button" class="quiz-opt-btn" data-character="pedrinho">
+                    🌳 Subir em árvores, correr no quintal e explorar novos lugares
+                  </button>
+                  <button type="button" class="quiz-opt-btn" data-character="nastacia">
+                    🥞 Preparar um lanche bem gostoso e reunir todo mundo ao redor da mesa
+                  </button>
+                </div>
+
+                <!-- Resultado Dinâmico -->
+                <div class="quiz-result" id="quizResult" role="region" aria-live="polite">
+                  <h4 class="quiz-result-title" id="quizResultTitle">✨ Você é a Boneca Emília!</h4>
+                  <p class="quiz-result-desc" id="quizResultDesc">
+                    Tagarela, cheia de imaginação e com mil ideias por minuto! Você não aceita um "não" fácil e transforma qualquer dia comum em pura aventura!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-quote" style="margin: 0;">
+              💡 Dica: Compartilhe o seu resultado com seus colegas e familiares!
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       RODAPÉ (FOOTER)
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <!-- Mensagem da Turma do 8º Ano -->
+      <div class="footer-welcome-card">
+        <span class="footer-welcome-badge">💌 Mensagem do 8º Ano</span>
+        <h3 class="footer-welcome-title">Sejam Todos Muito Bem-Vindos ao Nosso Espetáculo!</h3>
+        <p class="footer-welcome-text">
+          "Preparamos cada fala, cada pincelada do cenário e cada cantiga com muito carinho e entusiasmo. Este teatro é a celebração do nosso aprendizado, da amizade e da riqueza cultural da literatura brasileira. A presença de cada pai, mãe, professor, funcionário e colega de escola tornará essa festa completa!"
+        </p>
+        <div class="footer-notice-free">
+          <span>🎟️</span> AVISO: ENTRADA GRATUITA PARA TODA A COMUNIDADE ESCOLAR
+        </div>
+      </div>
+
+      <!-- Barra Inferior de Créditos e Navegação -->
+      <div class="footer-bottom-bar">
+        <div>
+          <strong>Peça Teatral: Aventuras no Sítio do Picapau Amarelo</strong><br>
+          Realização: Alunos do 8º Ano • Apoio: Equipe Pedagógica e Direção Escolar • 2026
+        </div>
+
+        <div>
+          <a href="#inicio" class="footer-back-top">
+            Voltar ao topo ⬆️
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL LIGHTBOX PARA A GALERIA DE BASTIDORES
+       ======================================================================== -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Visualizador de fotos dos bastidores">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Fechar visualização de foto">✕</button>
+      <div class="lightbox-img-wrap">
+        <img src="" alt="" class="lightbox-img" id="lightboxImg">
+      </div>
+      <div class="lightbox-footer">
+        <div class="lightbox-desc" id="lightboxDesc">Foto dos bastidores</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       ÁREA OCULTA FORMATADA PARA IMPRESSÃO DE ALTA RESOLUÇÃO (PRINT A4)
+       ======================================================================== -->
+  <div id="printableColoringArea" style="display: none;" aria-hidden="true">
+    <div class="print-header-sheet">
+      <h2>Peça Teatral: Aventuras no Sítio do Picapau Amarelo</h2>
+      <p>Desenho para Colorir • Turma do 8º Ano • Traga seu desenho colorido para a escola!</p>
+    </div>
+    <img src="assets/images/desenho_colorir_sitio.jpg" alt="Desenho para colorir" class="print-img-target">
+  </div>
+
+  <!-- Scripts JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
