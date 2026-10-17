@@ -43,8 +43,8 @@ Uma página web moderna, única (*single-page*), lúdica e totalmente responsiva
    - Bloco estilo bilhete de teatro com as datas das 3 sessões:
      - Sexta-feira (20/Nov) - 14h30 (Sessão Escolar) e 19h00 (Sessão Noturna para Famílias).
      - Sábado (21/Nov) - 16h00 (Sessão de Gala e Encerramento).
-   - Localização no Auditório Central "Monteiro Lobato" com avisos de climatização e acessibilidade.
-   - **Botões interativos:** *Adicionar ao Google Agenda* e *Baixar Lembrete no Celular (.ics)*.
+   - Localização no **Colégio Anglo Leonardo da Vinci – Unidade Osasco** (Rua Euclídes da Cunha, nº 377, Centro, Osasco – SP). Estacionamento com parceiros na rua (pago).
+   - **Botões interativos:** *Como Chegar (Google Maps)*, *Adicionar ao Google Agenda* e *Baixar Lembrete no Celular (.ics)*.
 
 5. **Bastidores / Galeria:**
    - Fotografias dos ensaios no palco, pintura e cenografia, confecção dos figurinos e perucas, e a roda de concentração do elenco.

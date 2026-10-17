@@ -245,8 +245,8 @@ function initCalendarIntegrations() {
   // Dados do evento
   const eventDetails = {
     title: 'Peça Teatral: Aventuras no Sítio do Picapau Amarelo (8º Ano)',
-    description: 'Espetáculo teatral escolar apresentado pelos alunos do 8º Ano. Entrada Franca! Traga a família para uma tarde mágica no Sítio do Picapau Amarelo.',
-    location: 'Auditório Monteiro Lobato - Escola',
+    description: 'Espetáculo teatral escolar apresentado pelos alunos do 8º Ano. Entrada Franca! Traga a família para uma tarde mágica no Sítio do Picapau Amarelo. Estacionamento pago com parceiros na rua.',
+    location: 'Colégio Anglo Leonardo da Vinci - Unidade Osasco (Rua Euclídes da Cunha, 377, Centro, Osasco - SP)',
     startDate: '20261120T143000',
     endDate: '20261120T160000'
   };
