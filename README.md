@@ -20,13 +20,13 @@ Uma página web moderna, única (*single-page*), lúdica e totalmente responsiva
 1. **Cabeçalho (Hero):**
    - Título marcante: *Peça Teatral: Aventuras no Sítio do Picapau Amarelo*.
    - Subtítulo convidativo para pais, alunos, professores e toda a comunidade escolar.
-   - Botão de ação com rolagem suave (*smooth scroll*) para a seção de Datas e Horários.
+   - Botões de ação com rolagem suave (*smooth scroll*) para os Horários e o Texto de Abertura.
+   - Destaque dos **dois turnos na Quadra da escola**.
    - Ilustração de abertura do Sítio com selo comemorativo de *Entrada Franca*.
-   - **Contador Regressivo em Tempo Real** até o dia da estreia!
 
-2. **Sobre o Espetáculo (Sinopse):**
-   - Texto empolgante narrando a trama onde a Emília, Pedrinho, Narizinho e o Visconde defendem as receitas da Tia Nastácia e os livros do sítio contra as travessuras da Cuca.
-   - Pílulas com destaques: duração (60 min), classificação livre, trilha sonora ao vivo e gratuidade.
+2. **Texto de Abertura (Sobre o Espetáculo):**
+   - Texto de abertura que convida pais e alunos a reviverem memórias de infância através de uma pitada de mistério: a vaidade da Cuca, a pílula mágica do Sítio e as confusões com o ajudante Pesadelo na floresta.
+   - Pílulas com destaques: Local (Quadra), Dois Turnos, Classificação Livre e Gratuidade.
 
 3. **Personagens / Quem é Quem:**
    - Cards ilustrados com retratos dos 11 personagens principais e os alunos atores:
@@ -43,11 +43,11 @@ Uma página web moderna, única (*single-page*), lúdica e totalmente responsiva
      - 🦇 **Pesadelo:** Felipe
    - Citações famosas, características e biografias resumidas.
 
-4. **Datas, Horários e Local:**
-   - Bloco estilo bilhete de teatro com as datas das 3 sessões:
-     - Sexta-feira (20/Nov) - 14h30 (Sessão Escolar) e 19h00 (Sessão Noturna para Famílias).
-     - Sábado (21/Nov) - 16h00 (Sessão de Gala e Encerramento).
-   - Localização no **Colégio Anglo Leonardo da Vinci – Unidade Osasco** (Rua Euclídes da Cunha, nº 377, Centro, Osasco – SP). Estacionamento com parceiros na rua (pago).
+4. **Horários dos Turnos e Local:**
+   - Bloco estilo bilhete de teatro com os **dois turnos**:
+     - **1º Turno:** 09:40 às 10:40 (Manhã)
+     - **2º Turno:** 10:40 às 12:40 (Manhã / Meio-Dia)
+   - Localização destacada: **Quadra** (Quadra da Escola – Colégio Anglo Leonardo da Vinci, Rua Euclídes da Cunha, nº 377, Centro, Osasco – SP).
    - **Botões interativos:** *Como Chegar (Google Maps)*, *Adicionar ao Google Agenda* e *Baixar Lembrete no Celular (.ics)*.
 
 5. **Bastidores / Galeria:**

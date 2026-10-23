@@ -51,9 +51,9 @@
       <nav aria-label="Menu principal">
         <ul class="nav-menu" id="navMenu">
           <li><a href="#inicio" class="nav-link">Início</a></li>
-          <li><a href="#sobre" class="nav-link">Sobre o Espetáculo</a></li>
+          <li><a href="#sobre" class="nav-link">Texto de Abertura</a></li>
           <li><a href="#personagens" class="nav-link">Quem é Quem</a></li>
-          <li><a href="#datas-horarios" class="nav-link">Datas &amp; Local</a></li>
+          <li><a href="#datas-horarios" class="nav-link">Horários &amp; Local</a></li>
           <li><a href="#bastidores" class="nav-link">Bastidores</a></li>
           <li><a href="#interativo" class="nav-link">Atividades</a></li>
           <li>
@@ -90,34 +90,26 @@
 
             <div class="hero-cta-group">
               <a href="#datas-horarios" class="btn btn-primary" id="heroBtnDatas">
-                🗓️ Ver Datas e Horários
+                🕒 Ver Horários &amp; Local (Quadra)
               </a>
               <a href="#sobre" class="btn btn-outline">
-                📖 Conhecer a História
+                📖 Texto de Abertura
               </a>
             </div>
 
-            <!-- Contador Regressivo até a Estreia -->
-            <div class="countdown-box" aria-live="polite">
-              <div class="countdown-header">
-                <span>⏰ Contagem regressiva para a grande estreia:</span>
+            <!-- Destaque dos Turnos na Quadra -->
+            <div class="hero-turns-card" style="margin-top: 24px; background: #ffffff; border: 2px solid var(--color-yellow-bright); border-radius: var(--radius-lg); padding: 18px 22px; box-shadow: var(--shadow-sm);">
+              <div style="font-family: var(--font-heading); font-size: 1.05rem; font-weight: 700; color: var(--color-green-dark); display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
+                <span>🏟️</span> Apresentação na Quadra • Dois Turnos:
               </div>
-              <div class="countdown-timer">
-                <div class="countdown-unit">
-                  <div class="countdown-number" id="cdDays">00</div>
-                  <div class="countdown-label">Dias</div>
+              <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 160px; background: var(--color-green-bg); border: 1px solid var(--color-green-soft); border-radius: var(--radius-sm); padding: 10px 14px;">
+                  <div style="font-size: 0.78rem; font-weight: 700; color: var(--color-green-primary); text-transform: uppercase;">1º Turno</div>
+                  <div style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 800; color: var(--color-green-dark);">09:40 às 10:40</div>
                 </div>
-                <div class="countdown-unit">
-                  <div class="countdown-number" id="cdHours">00</div>
-                  <div class="countdown-label">Horas</div>
-                </div>
-                <div class="countdown-unit">
-                  <div class="countdown-number" id="cdMinutes">00</div>
-                  <div class="countdown-label">Minutos</div>
-                </div>
-                <div class="countdown-unit">
-                  <div class="countdown-number" id="cdSeconds">00</div>
-                  <div class="countdown-label">Segundos</div>
+                <div style="flex: 1; min-width: 160px; background: var(--color-yellow-soft); border: 1px solid var(--color-yellow-bright); border-radius: var(--radius-sm); padding: 10px 14px;">
+                  <div style="font-size: 0.78rem; font-weight: 700; color: #854d0e; text-transform: uppercase;">2º Turno</div>
+                  <div style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 800; color: #78350f;">10:40 às 12:40</div>
                 </div>
               </div>
             </div>
@@ -144,10 +136,10 @@
     <section class="about-section" id="sobre">
       <div class="container">
         <div class="section-title-wrap">
-          <span class="section-tag tag-green">🌻 Nosso Espetáculo</span>
-          <h2 class="section-title">A Magia do Sítio Ganha Vida no Palco</h2>
+          <span class="section-tag tag-green">🌻 Texto de Abertura</span>
+          <h2 class="section-title">Uma Grande Aventura Está Chegando ao Palco!</h2>
           <p class="section-subtitle">
-            Um projeto multidisciplinar que uniu literatura brasileira, artes cênicas, expressão corporal e muita alegria da garotada!
+            Revivendo a magia, a nostalgia e as doces lembranças de infância no clássico Sítio do Picapau Amarelo.
           </p>
         </div>
 
@@ -155,44 +147,41 @@
           <div class="about-grid">
             <div class="about-text">
               <p>
-                Tudo começa em uma manhã ensolarada e cheia de passarinhos cantando no <strong>Sítio do Picapau Amarelo</strong>. Dona Benta lê histórias na varanda, Tia Nastácia prepara sua famosa fornada de bolinhos de chuva, o bom Tio Barnabé cuida da roça e o comilão Rabicó fareja quitutes pelo terreiro.
+                Neste ano de 2026, a turma do 8º ano preparou um projeto teatral muito especial. Pais e alunos vão reviver a magia e as lembranças do clássico <strong>Sítio do Picapau Amarelo</strong> em uma história divertida e cheia de mistério: em meio a uma crise de beleza e vaidade, a <strong>Cuca</strong> descobre a existência da famosa <strong>pílula mágica</strong> do Sítio e manda seu ajudante <strong>Pesadelo</strong> roubá-la no meio da noite!
               </p>
               <p>
-                Mas uma grande confusão agita o sítio: a temida <strong>Cuca</strong> e seu atrapalhado monstrinho <strong>Pesadelo</strong> tramam um feitiço misterioso para sumir com as receitas e os livros da biblioteca do Visconde! No meio do capoeirão, o travesso <strong>Saci</strong> surge em seus redemoinhos trazendo segredos da floresta.
-              </p>
-              <p>
-                Juntos, <strong>Emília</strong>, <strong>Pedrinho</strong>, <strong>Narizinho</strong> e o nobre <strong>Visconde de Sabugosa</strong> partem em uma expedição mágica e repleta de coragem. Com inteligência, união e muita cantoria, a turminha vai provar que o verdadeiro encanto está na imaginação e na amizade!
+                Com a pílula desaparecida na floresta, começa uma grande aventura para resolver essa confusão. Como essa história vai terminar? Venham conferir de perto no palco da nossa escola e se divertir com a gente. Contamos com a presença de todos!
               </p>
 
               <div class="about-quote">
-                "Um espetáculo vibrante, repleto de cantigas do folclore popular brasileiro e diálogos hilários que vão emocionar crianças e adultos!"
+                "Uma lembrança viva da infância para os pais e uma experiência inesquecível de teatro para toda a comunidade escolar!"
               </div>
             </div>
 
             <!-- Pílulas de Informações Rápidas -->
             <div class="about-features">
               <div class="feature-pill">
+                <span class="feature-icon" aria-hidden="true">🏟️</span>
+                <span class="feature-title">Local: Quadra</span>
+                <span class="feature-desc">Apresentação especial montada na quadra da escola.</span>
+              </div>
+
+              <div class="feature-pill">
                 <span class="feature-icon" aria-hidden="true">⏱️</span>
-                <span class="feature-title">Duração Ideal</span>
-                <span class="feature-desc">Aproximadamente 60 minutos de pura diversão e dinamismo.</span>
+                <span class="feature-title">Dois Turnos</span>
+                <span class="feature-desc">1º Turno (09:40 às 10:40) e 2º Turno (10:40 às 12:40).</span>
               </div>
 
               <div class="feature-pill">
                 <span class="feature-icon" aria-hidden="true">👶</span>
                 <span class="feature-title">Classificação Livre</span>
-                <span class="feature-desc">Perfeito para bebês, crianças, jovens e vovôs e vovós!</span>
-              </div>
-
-              <div class="feature-pill">
-                <span class="feature-icon" aria-hidden="true">🎶</span>
-                <span class="feature-title">Trilha Sonora Viva</span>
-                <span class="feature-desc">Cantigas tradicionais e canções clássicas entoadas pela turma.</span>
+                <span class="feature-desc">Perfeito para pais, alunos, irmãos, avós e convidados!</span>
               </div>
 
               <div class="feature-pill">
                 <span class="feature-icon" aria-hidden="true">🎁</span>
                 <span class="feature-title">Entrada Gratuita</span>
-                <span class="feature-desc">Aberto a toda a comunidade escolar. Não precisa comprar ingresso.</span>
+                <span class="feature-desc">Aberto a toda a comunidade escolar. Não precisa de ingresso.</span>
               </div>
             </div>
           </div>
@@ -424,7 +413,7 @@
           <span class="section-tag tag-red">📅 Programação Oficial</span>
           <h2 class="section-title">Datas, Horários e Local</h2>
           <p class="section-subtitle">
-            Marque na sua agenda e venha prestigiar! Todas as sessões contam com entrada franca para a comunidade escolar.
+            A apresentação teatral será realizada na <strong>Quadra</strong> da escola em dois turnos especiais. Escolha seu horário e venha prestigiar!
           </p>
         </div>
 
@@ -432,7 +421,7 @@
           <!-- Cabeçalho do Ticket -->
           <div class="schedule-ticket-header">
             <div class="ticket-header-title">
-              <span>🎟️</span> Bilhete da Temporada Escolar
+              <span>🎟️</span> Programação dos Turnos na Quadra
             </div>
             <div class="ticket-header-badge">
               Entrada 100% Gratuita • Sem cobrança de ingressos
@@ -440,64 +429,44 @@
           </div>
 
           <div class="schedule-body">
-            <!-- Sessões -->
+            <!-- Sessões / Turnos -->
             <div class="sessions-list">
-              <!-- Sessão 1 -->
+              <!-- 1º Turno -->
               <div class="session-card">
                 <div class="session-date-badge">
-                  <div class="session-date-weekday">SEX</div>
-                  <div class="session-date-day">20</div>
-                  <div class="session-date-month">NOV</div>
+                  <div class="session-date-weekday">TURNO</div>
+                  <div class="session-date-day">1º</div>
+                  <div class="session-date-month">MANHÃ</div>
                 </div>
                 <div class="session-info">
-                  <span class="session-tag-highlight">1ª Sessão • Matinê Escolar</span>
-                  <h3 class="session-title">Sessão dos Alunos do Fundamental I</h3>
+                  <span class="session-tag-highlight">1º Turno • Primeira Sessão</span>
+                  <h3 class="session-title">Primeiro Turno</h3>
                   <div class="session-times">
-                    <span>🕒 Horário: 14h30</span>
-                    <span>• Portões abrem às 14h10</span>
+                    <span>🕒 Horário: <strong>09:40 às 10:40</strong></span>
+                    <span>• Local: <strong>Quadra</strong></span>
                   </div>
                   <p class="session-target">
-                    Apresentação especial com participação das turmas do 1º ao 5º ano, professores e monitores.
+                    Primeira sessão especial da peça na quadra da escola. Chegue com antecedência para garantir seu lugar e se encantar com a turminha do Sítio!
                   </p>
                 </div>
               </div>
 
-              <!-- Sessão 2 -->
+              <!-- 2º Turno -->
               <div class="session-card">
                 <div class="session-date-badge" style="background-color: var(--color-yellow-dark);">
-                  <div class="session-date-weekday">SEX</div>
-                  <div class="session-date-day">20</div>
-                  <div class="session-date-month">NOV</div>
+                  <div class="session-date-weekday">TURNO</div>
+                  <div class="session-date-day">2º</div>
+                  <div class="session-date-month">MANHÃ</div>
                 </div>
                 <div class="session-info">
-                  <span class="session-tag-highlight" style="background-color: var(--color-yellow-soft); color: #854d0e;">2ª Sessão • Grande Noite das Famílias</span>
-                  <h3 class="session-title">Sessão Noturna para Pais e Comunidade</h3>
+                  <span class="session-tag-highlight" style="background-color: var(--color-yellow-soft); color: #854d0e;">2º Turno • Segunda Sessão</span>
+                  <h3 class="session-title">Segundo Turno</h3>
                   <div class="session-times">
-                    <span>🕒 Horário: 19h00</span>
-                    <span>• Portões abrem às 18h30</span>
+                    <span>🕒 Horário: <strong>10:40 às 12:40</strong></span>
+                    <span>• Local: <strong>Quadra</strong></span>
                   </div>
                   <p class="session-target">
-                    Sessão perfeita para pais, irmãos, avós e ex-alunos celebrarem juntos o encerramento do ano letivo.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Sessão 3 -->
-              <div class="session-card">
-                <div class="session-date-badge" style="background-color: var(--color-red-primary);">
-                  <div class="session-date-weekday">SÁB</div>
-                  <div class="session-date-day">21</div>
-                  <div class="session-date-month">NOV</div>
-                </div>
-                <div class="session-info">
-                  <span class="session-tag-highlight">Sessão Especial de Gala • Fim de Semana</span>
-                  <h3 class="session-title">Apresentação Festiva e Encerramento</h3>
-                  <div class="session-times">
-                    <span>🕒 Horário: 16h00</span>
-                    <span>• Portões abrem às 15h30</span>
-                  </div>
-                  <p class="session-target">
-                    Sessão aberta ao público geral, familiares convidados e confraternização com fotos com os personagens ao final!
+                    Segunda sessão especial na quadra da escola, com muitas gargalhadas, o desfecho do mistério e fotos com todos os personagens ao final!
                   </p>
                 </div>
               </div>
@@ -510,24 +479,26 @@
               </h3>
 
               <div class="location-address">
-                <strong>Colégio Anglo Leonardo da Vinci – Unidade Osasco</strong>
-                Auditório Principal • Pátio Central<br>
-                Rua Euclídes da Cunha, nº 377, Centro<br>
-                Osasco – SP
+                <div style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 800; color: var(--color-green-dark); margin-bottom: 6px; display: flex; align-items: center; gap: 8px;">
+                  <span>🏟️</span> QUADRA
+                </div>
+                <strong style="color: var(--color-green-primary); font-size: 1.05rem;">Quadra da Escola</strong><br>
+                Colégio Anglo Leonardo da Vinci – Unidade Osasco<br>
+                Rua Euclídes da Cunha, nº 377, Centro • Osasco – SP
               </div>
 
               <div class="location-badges">
                 <div class="loc-badge">
-                  <span>❄️</span> Ambiente climatizado e confortável
+                  <span>🏟️</span> O espetáculo acontecerá na <strong>Quadra</strong> da escola
                 </div>
                 <div class="loc-badge">
                   <span>♿</span> Total acessibilidade (rampas e assentos prioritários)
                 </div>
                 <div class="loc-badge">
-                  <span>🅿️</span> Estacionamento com parceiros na rua da escola (pago)
+                  <span>📸</span> Espaço especial para fotos com o elenco no final
                 </div>
                 <div class="loc-badge">
-                  <span>📸</span> Espaço para fotos com o elenco no final
+                  <span>🎟️</span> Entrada 100% gratuita para todas as famílias
                 </div>
               </div>
 

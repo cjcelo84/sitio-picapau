@@ -5,7 +5,6 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
-  initCountdown();
   initSmoothScroll();
   initGalleryLightbox();
   initColoringActions();
@@ -39,48 +38,6 @@ function initMobileMenu() {
   });
 }
 
-/* ==========================================================================
-   2. Contagem Regressiva para a Estreia
-   ========================================================================== */
-function initCountdown() {
-  // Data da estreia: 20 de Novembro de 2026 às 14:30
-  const premiereDate = new Date('2026-11-20T14:30:00').getTime();
-
-  const daysEl = document.getElementById('cdDays');
-  const hoursEl = document.getElementById('cdHours');
-  const minutesEl = document.getElementById('cdMinutes');
-  const secondsEl = document.getElementById('cdSeconds');
-
-  if (!daysEl || !hoursEl || !minutesEl || !secondsEl) return;
-
-  function updateTimer() {
-    const now = new Date().getTime();
-    const distance = premiereDate - now;
-
-    if (distance <= 0) {
-      daysEl.textContent = '00';
-      hoursEl.textContent = '00';
-      minutesEl.textContent = '00';
-      secondsEl.textContent = '00';
-      const headerEl = document.querySelector('.countdown-header span');
-      if (headerEl) headerEl.textContent = '🎉 É HOJE! O espetáculo começou!';
-      return;
-    }
-
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    daysEl.textContent = String(days).padStart(2, '0');
-    hoursEl.textContent = String(hours).padStart(2, '0');
-    minutesEl.textContent = String(minutes).padStart(2, '0');
-    secondsEl.textContent = String(seconds).padStart(2, '0');
-  }
-
-  updateTimer();
-  setInterval(updateTimer, 1000);
-}
 
 /* ==========================================================================
    3. Rolagem Suave (Smooth Scroll)
@@ -245,10 +202,10 @@ function initCalendarIntegrations() {
   // Dados do evento
   const eventDetails = {
     title: 'Peça Teatral: Aventuras no Sítio do Picapau Amarelo (8º Ano)',
-    description: 'Espetáculo teatral escolar apresentado pelos alunos do 8º Ano. Entrada Franca! Traga a família para uma tarde mágica no Sítio do Picapau Amarelo. Estacionamento pago com parceiros na rua.',
-    location: 'Colégio Anglo Leonardo da Vinci - Unidade Osasco (Rua Euclídes da Cunha, 377, Centro, Osasco - SP)',
-    startDate: '20261120T143000',
-    endDate: '20261120T160000'
+    description: 'Espetáculo teatral escolar apresentado pelos alunos do 8º Ano na Quadra da Escola. Entrada Franca! Dois turnos: 1º Turno (09:40 às 10:40) e 2º Turno (10:40 às 12:40).',
+    location: 'Quadra da Escola - Colégio Anglo Leonardo da Vinci (Rua Euclídes da Cunha, 377, Centro, Osasco - SP)',
+    startDate: '20261120T094000',
+    endDate: '20261120T124000'
   };
 
   if (btnGoogle) {
