@@ -29,15 +29,19 @@ Uma página web moderna, única (*single-page*), lúdica e totalmente responsiva
    - Pílulas com destaques: duração (60 min), classificação livre, trilha sonora ao vivo e gratuidade.
 
 3. **Personagens / Quem é Quem:**
-   - Cards ilustrados com retratos dos 7 personagens principais e os alunos atores:
-     - 🧵 **Emília:** Sofia Meireles (8º B)
-     - 🌽 **Visconde de Sabugosa:** Lucas Fernandes (8º A)
-     - 👒 **Narizinho (Lúcia):** Beatriz Castro (8º A)
-     - 🌳 **Pedrinho:** Gabriel Ribeiro (8º B)
-     - 📖 **Dona Benta:** Helena Vasconcelos (8º A)
-     - 🥞 **Tia Nastácia:** Clara Albuquerque (8º B)
-     - 🐊 **Cuca:** Manuela Rocha (8º A)
-   - Citações famosas e biografias resumidas.
+   - Cards ilustrados com retratos dos 11 personagens principais e os alunos atores:
+     - 🧵 **Emília:** Helena Dias & Leticia Venera
+     - 🌽 **Visconde de Sabugosa:** Bernardo & Henrique
+     - 👒 **Narizinho (Lúcia):** Maria Clara & Pietra
+     - 🌳 **Pedrinho:** Gustavo Daiti & Davi
+     - 📖 **Dona Benta:** Alice & Nicole
+     - 🥞 **Tia Nastácia:** Mariana Vicari
+     - 🪓 **Tio Barnabé:** Pedro
+     - 🌽 **Rabicó:** Gustavo Ávila
+     - 🌪️ **Saci:** Nicolas
+     - 🐊 **Cuca:** Gabriela
+     - 🦇 **Pesadelo:** Felipe
+   - Citações famosas, características e biografias resumidas.
 
 4. **Datas, Horários e Local:**
    - Bloco estilo bilhete de teatro com as datas das 3 sessões:

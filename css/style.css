@@ -742,6 +742,8 @@ h1, h2, h3, h4 {
   align-items: center;
   gap: 6px;
   justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .character-quote {
@@ -767,12 +769,44 @@ h1, h2, h3, h4 {
   background: linear-gradient(135deg, var(--color-red-primary), var(--color-yellow-primary));
 }
 
+.character-card[data-character="visconde"] .character-avatar-wrap {
+  background: linear-gradient(135deg, var(--color-yellow-primary), var(--color-green-primary));
+}
+
+.character-card[data-character="narizinho"] .character-avatar-wrap {
+  background: linear-gradient(135deg, #ffd166, #f39a00);
+}
+
+.character-card[data-character="pedrinho"] .character-avatar-wrap {
+  background: linear-gradient(135deg, #2a9d8f, #e76f51);
+}
+
+.character-card[data-character="donabenta"] .character-avatar-wrap {
+  background: linear-gradient(135deg, #a8dadc, #457b9d);
+}
+
+.character-card[data-character="tianastacia"] .character-avatar-wrap {
+  background: linear-gradient(135deg, #f4a261, #e76f51);
+}
+
+.character-card[data-character="tiobarnabe"] .character-avatar-wrap {
+  background: linear-gradient(135deg, #e9c46a, #8b5a2b);
+}
+
+.character-card[data-character="rabico"] .character-avatar-wrap {
+  background: linear-gradient(135deg, #ff85a1, #ffd166);
+}
+
+.character-card[data-character="saci"] .character-avatar-wrap {
+  background: linear-gradient(135deg, #e63946, #1b4332);
+}
+
 .character-card[data-character="cuca"] .character-avatar-wrap {
   background: linear-gradient(135deg, #7b2cbf, var(--color-green-light));
 }
 
-.character-card[data-character="visconde"] .character-avatar-wrap {
-  background: linear-gradient(135deg, var(--color-yellow-primary), var(--color-green-primary));
+.character-card[data-character="pesadelo"] .character-avatar-wrap {
+  background: linear-gradient(135deg, #52b788, #7209b7);
 }
 
 /* --------------------------------------------------------------------------
