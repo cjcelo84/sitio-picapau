@@ -43,7 +43,8 @@ Uma página web moderna, única (*single-page*), lúdica e totalmente responsiva
      - 🦇 **Pesadelo:** Felipe
    - Citações famosas, características e biografias resumidas.
 
-4. **Horários dos Turnos e Local:**
+4. **Data, Horários dos Turnos e Local:**
+   - **Data Oficial:** **Sábado, 7 de Novembro de 2026**.
    - Bloco estilo bilhete de teatro com os **dois turnos**:
      - **1º Turno:** 09:40 às 10:40 (Manhã)
      - **2º Turno:** 10:40 às 12:40 (Manhã / Meio-Dia)
