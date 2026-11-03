@@ -202,7 +202,7 @@ function initCalendarIntegrations() {
   // Dados do evento
   const eventDetails = {
     title: 'Peça Teatral: Aventuras no Sítio do Picapau Amarelo (8º Ano)',
-    description: 'Espetáculo teatral escolar apresentado pelos alunos do 8º Ano no Sábado, 7 de Novembro de 2026, na Quadra da Escola. Entrada Franca! Dois turnos: 1º Turno (09:40 às 10:40) e 2º Turno (10:40 às 12:40).',
+    description: 'Espetáculo teatral escolar apresentado pelos alunos do 8º Ano no Sábado, 7 de Novembro de 2026, na Quadra da Escola. Entrada Franca! Duas seções: 1ª Seção (09:40) e 2ª Seção (10:40).',
     location: 'Quadra da Escola - Colégio Anglo Leonardo da Vinci (Rua Euclídes da Cunha, 377, Centro, Osasco - SP)',
     startDate: '20261107T094000',
     endDate: '20261107T124000'
