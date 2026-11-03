@@ -6,7 +6,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
   initSmoothScroll();
-  initGalleryLightbox();
   initColoringActions();
   initQuiz();
   initCalendarIntegrations();
@@ -64,50 +63,6 @@ function initSmoothScroll() {
   });
 }
 
-/* ==========================================================================
-   4. Galeria de Bastidores com Lightbox
-   ========================================================================== */
-function initGalleryLightbox() {
-  const modal = document.getElementById('lightboxModal');
-  const modalImg = document.getElementById('lightboxImg');
-  const modalDesc = document.getElementById('lightboxDesc');
-  const closeBtn = document.getElementById('lightboxClose');
-  const galleryItems = document.querySelectorAll('.gallery-item');
-
-  if (!modal || !modalImg || !modalDesc || !closeBtn) return;
-
-  galleryItems.forEach(item => {
-    item.addEventListener('click', () => {
-      const imgSrc = item.getAttribute('data-full');
-      const caption = item.getAttribute('data-caption') || 'Bastidores da Peça';
-      
-      modalImg.src = imgSrc;
-      modalImg.alt = caption;
-      modalDesc.textContent = caption;
-      modal.classList.add('active');
-      document.body.style.overflow = 'hidden';
-    });
-  });
-
-  function closeModal() {
-    modal.classList.remove('active');
-    document.body.style.overflow = '';
-  }
-
-  closeBtn.addEventListener('click', closeModal);
-
-  modal.addEventListener('click', (e) => {
-    if (e.target === modal) {
-      closeModal();
-    }
-  });
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && modal.classList.contains('active')) {
-      closeModal();
-    }
-  });
-}
 
 /* ==========================================================================
    5. Ações para Colorir (Download e Impressão A4)
